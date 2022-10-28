@@ -90,7 +90,7 @@ def login_page():
                                     a= open(filepath, "wb").write(part.get_payload(decode=True))
                                 dict1={'Subject': subject,'From':From, 'Date':Date, 'Content':a}
 
-                    mails.append(dict1)
+                        mails.append(dict1)
 
         return redirect('/home')
     return render_template("login.html")
