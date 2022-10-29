@@ -4,9 +4,6 @@ import utils
 app = Flask(__name__)
 
 
-# username = "nhungleqaz2@gmail.com"
-# password = "pfnrbgsnqhuehhmb"
-
 
 @app.route("/", methods=['GET', 'POST'])
 def login_page():
